@@ -92,7 +92,7 @@ namespace MissionNum2
             //Array that does the math for the number of asterisks of the total rolls for each number
             decimal[] numAsterisks = { Math.Round((decimal)(two / userNum) * 100, 0), Math.Round((decimal)(three / userNum) * 100, 0), Math.Round((decimal)(four / userNum) * 100, 0), Math.Round((decimal)(five / userNum) * 100, 0), Math.Round((decimal)(six / userNum) * 100, 0), Math.Round((decimal)(seven / userNum) * 100, 0), Math.Round((decimal)(eight / userNum) * 100, 0), Math.Round((decimal)(nine / userNum) * 100, 0), Math.Round((decimal)(ten / userNum) * 100, 0), Math.Round((decimal)(eleven / userNum) * 100, 0), Math.Round((decimal)(twelve / userNum) * 100, 0), };
 
-            //For loop to show the actual number of asterisks
+            //For loop to show the actual number of asterisks for each number
             for (int i = 0; i < 11; i++)
             {
                 string percentAsterisks = (i + 2) + ": ";
